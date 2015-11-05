@@ -4,10 +4,10 @@ Passes as json info about selected posts Plugin (through: 'wp-content/plugins/es
 
 Encryption and arguments
 post_type (optional): pass the post_type you want to retrieve (returns published posts). Default post_type is 'post'.
-category (optional): pass tehj post category you want to retrieve. Default category is 0, return posts from all categories.
+category (optional): pass the post category you want to retrieve. Default category is 0, return posts from all categories.
 token (mandatory): token is created after hashing the concatenated result of the first argument and the encryption key set in the preferences section.
-themes (optional): get inbformation about installed themes and active theme (themes=on).
-plugins (optional): get inbformation about installed plugins and active plugins (plugins=on).
+themes (optional): get information about installed themes and active theme (themes=on).
+plugins (optional): get information about installed plugins and active plugins (plugins=on).
 categories (optional): get all the post categories (category list) that have at least one post (categories=on).
 post_types (optional): get all the post types available (post_types=on).
 
